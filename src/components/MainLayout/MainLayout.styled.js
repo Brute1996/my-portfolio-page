@@ -60,6 +60,7 @@ export const MenuStyled = styled.div`
     position: fixed;
     transform: translateY(0);
     width: auto;
+    box-shadow: 1px 1px 15px #000;
   }
 
   .cv-download-button {
