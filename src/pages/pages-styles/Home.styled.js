@@ -63,25 +63,21 @@ export const HomeInfo = styled.div`
   text-align: center;
   max-width: 900px;
 
-  h2 {
-    font-size: 36px;
-    letter-spacing: 4px;
-    margin-bottom: 20px;
-
-    @media (min-width: 768px) {
-      font-size: 60;
-    }
-
-    @media (min-width: 1200px) {
-      font-size: 70;
-    }
-  }
-
   p {
     font-size: 23px;
 
     @media (min-width: 1200px) {
       font-size: 30px;
     }
+  }
+`;
+
+export const HomeTitle = styled.h2`
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  font-size: 36px;
+
+  @media (min-width: 768px) {
+    font-size: 60px;
   }
 `;

@@ -1,11 +1,11 @@
-import { HomeInfo, HomeWrapper, Photo } from './pages-styles/Home.styled';
+import { HomeInfo, HomeTitle, HomeWrapper, Photo } from './pages-styles/Home.styled';
 
 const Home = () => {
     return (
         <HomeWrapper>
             <Photo />
             <HomeInfo>
-                <h2>Serhii Cherenkov</h2>
+                <HomeTitle>Serhii Cherenkov</HomeTitle>
                 <p>
                     <span style={{ display: 'block' }}>Greetings all on my page! 👋</span>
                     I am a junior Front-end Developer and I passionate about creating beautiful user-friendly apps 🤓<br/>
