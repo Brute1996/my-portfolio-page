@@ -4,17 +4,23 @@ export const ContactsStyled = styled.div`
   text-align: center;
 
   h2 {
-    font-size: 40px;
+    font-size: 26px;
     font-weight: 500;
     letter-spacing: 4px;
     color: rgba(0, 0, 0, 0.6);
     margin-bottom: 14px;
+    @media (min-width: 768px) {
+      font-size: 40px;
+    }
   }
 
   p {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 10px;
     color: rgba(0, 0, 0, 0.5);
+    @media (min-width: 768px) {
+      font-size: 30px;
+    }
   }
 
   .contact-link-mail {
