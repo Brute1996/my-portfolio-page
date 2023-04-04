@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/my-portfolio-page/static/css/main.9ec9a343.css",
+    "main.js": "/my-portfolio-page/static/js/main.3ac5cd26.js",
+    "static/media/serhii-min.jpg": "/my-portfolio-page/static/media/serhii-min.bf3eb99cf4b998bb4c40.jpg",
+    "static/media/filmoteka-project.JPG": "/my-portfolio-page/static/media/filmoteka-project.bf98772a623e127433d9.JPG",
+    "static/media/Ice-cream-project.JPG": "/my-portfolio-page/static/media/Ice-cream-project.8d895b206768dd77a2e9.JPG",
+    "static/media/web-studio-project.JPG": "/my-portfolio-page/static/media/web-studio-project.ea51d0db31d3212f12e2.JPG",
+    "index.html": "/my-portfolio-page/index.html",
+    "main.9ec9a343.css.map": "/my-portfolio-page/static/css/main.9ec9a343.css.map",
+    "main.3ac5cd26.js.map": "/my-portfolio-page/static/js/main.3ac5cd26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ec9a343.css",
+    "static/js/main.3ac5cd26.js"
+  ]
+}
