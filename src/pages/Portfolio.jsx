@@ -3,6 +3,7 @@ import { PortfolioList } from "./pages-styles/Portfolio.styled";
 import WebStudioImg from '../img/web-studio-project.JPG'
 import IceCreamImg from '../img/Ice-cream-project.JPG'
 import FilmotekaImg from '../img/filmoteka-project.JPG'
+import CurrencyConver from '../img/currency-converter-project.JPG'
 
 
 const Portfolio = () => {
@@ -39,6 +40,14 @@ const Portfolio = () => {
                     fortune" button in the header.
                     As well, I helped my teammates to fix problems in their sections.
                     ' />
+                
+                <PortfolioItem
+                    projectLink='https://brute1996.github.io/currency-converter/'
+                    projectGitLink='https://github.com/Brute1996/currency-converter'
+                    projectImage={CurrencyConver}
+                    projectTitle='Currency Converter'
+                    projectTechnologies='React JS, HTML, STYLED CSS, REST API, AJAX, Material UI'
+                    projectDescr='Currency converter based on NBU API.' />
                 
             </PortfolioList>
         </>
