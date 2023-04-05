@@ -7,7 +7,7 @@ export const ContactsStyled = styled.div`
     font-size: 26px;
     font-weight: 500;
     letter-spacing: 4px;
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.7);
     margin-bottom: 14px;
     @media (min-width: 768px) {
       font-size: 40px;
