@@ -51,8 +51,8 @@ const Portfolio = () => {
                     projectDescr='Currency converter based on NBU API.' />
                                 
                 <PortfolioItem
-                    projectLink=''
-                    projectGitLink=''
+                    projectLink='/'
+                    projectGitLink='/'
                     projectImage={ComingSoonImg}
                     projectTitle='Coming soon'
                     projectTechnologies='soon'
