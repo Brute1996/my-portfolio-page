@@ -96,7 +96,7 @@ export const PortfolioCardStyle = styled.li`
 
     margin-top: 30px;
 
-    border: 2px solid rgba(0, 0, 0, 1);
+    border: 2px solid #000;
     border-radius: 10px;
     padding: 6px;
 
@@ -108,12 +108,10 @@ export const PortfolioCardStyle = styled.li`
       color: #fff;
       background-color: #1a1a1a;
       box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-      transform: translateY(-2px);
     }
 
     &:active {
       box-shadow: none;
-      transform: translateY(0);
     }
 
     @media (min-width: 1200px) {

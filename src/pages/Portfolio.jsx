@@ -3,7 +3,8 @@ import { PortfolioList } from "./pages-styles/Portfolio.styled";
 import WebStudioImg from '../img/web-studio-project.JPG'
 import IceCreamImg from '../img/Ice-cream-project.JPG'
 import FilmotekaImg from '../img/filmoteka-project.JPG'
-import CurrencyConver from '../img/currency-converter-project.JPG'
+import CurrencyConverImg from '../img/currency-converter-project.JPG'
+import ComingSoonImg from '../img/coming-soon.jpg'
 
 
 const Portfolio = () => {
@@ -44,10 +45,18 @@ const Portfolio = () => {
                 <PortfolioItem
                     projectLink='https://brute1996.github.io/currency-converter/'
                     projectGitLink='https://github.com/Brute1996/currency-converter'
-                    projectImage={CurrencyConver}
+                    projectImage={CurrencyConverImg}
                     projectTitle='Currency Converter'
                     projectTechnologies='React JS, HTML, STYLED CSS, REST API, AJAX, Material UI'
                     projectDescr='Currency converter based on NBU API.' />
+                                
+                <PortfolioItem
+                    projectLink=''
+                    projectGitLink=''
+                    projectImage={ComingSoonImg}
+                    projectTitle='Coming soon'
+                    projectTechnologies='soon'
+                    projectDescr='I am learn something new every day. A new and interesting project will appear here soon.' />
                 
             </PortfolioList>
         </>
