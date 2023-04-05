@@ -5,7 +5,7 @@ export const CvButton = ({className}) => {
     return (
         <CvButtonStyled className={className}>
             <Link 
-                to='https://drive.google.com/file/d/1bQ5xGiWkfvV5gWtq9LJWIkI5fIHt6Q3a/view?usp=sharing'
+                to='https://www.canva.com/design/DAFYAiaUZBo/2sQjOo-Upgbdnulc8CtCIg/view?utm_content=DAFYAiaUZBo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink'
                 rel="noopener noreferrer"
                 target="_blank">Watch CV</Link>
         </CvButtonStyled>
