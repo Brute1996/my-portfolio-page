@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio-page/static/css/main.379943a5.css",
-    "main.js": "/my-portfolio-page/static/js/main.10d78fed.js",
+    "main.css": "/my-portfolio-page/static/css/main.bda98bf8.css",
+    "main.js": "/my-portfolio-page/static/js/main.3fbe91a0.js",
     "static/media/filmoteka-project.JPG": "/my-portfolio-page/static/media/filmoteka-project.bf98772a623e127433d9.JPG",
     "static/media/Ice-cream-project.JPG": "/my-portfolio-page/static/media/Ice-cream-project.8d895b206768dd77a2e9.JPG",
     "static/media/web-studio-project.JPG": "/my-portfolio-page/static/media/web-studio-project.ea51d0db31d3212f12e2.JPG",
@@ -9,11 +9,11 @@
     "static/media/currency-converter-project.JPG": "/my-portfolio-page/static/media/currency-converter-project.b3cf2e7a626398d2b761.JPG",
     "static/media/coming-soon.jpg": "/my-portfolio-page/static/media/coming-soon.d2582ca18da1c879ab4e.jpg",
     "index.html": "/my-portfolio-page/index.html",
-    "main.379943a5.css.map": "/my-portfolio-page/static/css/main.379943a5.css.map",
-    "main.10d78fed.js.map": "/my-portfolio-page/static/js/main.10d78fed.js.map"
+    "main.bda98bf8.css.map": "/my-portfolio-page/static/css/main.bda98bf8.css.map",
+    "main.3fbe91a0.js.map": "/my-portfolio-page/static/js/main.3fbe91a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.379943a5.css",
-    "static/js/main.10d78fed.js"
+    "static/css/main.bda98bf8.css",
+    "static/js/main.3fbe91a0.js"
   ]
 }
