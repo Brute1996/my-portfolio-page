@@ -4,7 +4,7 @@ export const MenuBar = styled.div`
   position: fixed;
   width: 100%;
   padding: 15px;
-  background-color: rgb(61, 153, 112);
+  background-color: ${(p) => p.theme.menuColorBackground};
   z-index: 999;
   display: flex;
   justify-content: space-between;
@@ -15,6 +15,7 @@ export const MenuBar = styled.div`
 `;
 
 export const MenuButton = styled.button`
+  color: ${(p) => p.theme.activeColor};
   display: flex;
   margin-left: auto;
   font-size: 45px;

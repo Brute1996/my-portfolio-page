@@ -31,9 +31,9 @@ export const CvButtonStyled = styled.div`
   }
 
   &:hover {
-    color: rgba(243, 142, 27, 0.8);
-    background-color: #1a1a1a;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    color: #fff;
+    background-color: ${(p) => p.theme.activeColor};
+    box-shadow: ${(p) => p.theme.primaryColor} 0 8px 15px;
   }
 
   &:active {

@@ -7,7 +7,7 @@ export const ContactsStyled = styled.div`
     font-size: 26px;
     font-weight: 500;
     letter-spacing: 4px;
-    color: rgba(0, 0, 0, 0.7);
+    color: ${(p) => p.theme.activeColor};
     margin-bottom: 14px;
 
     @media (min-width: 768px) {
@@ -18,7 +18,7 @@ export const ContactsStyled = styled.div`
   p {
     font-size: 20px;
     margin-bottom: 10px;
-    color: rgba(0, 0, 0, 0.5);
+    color: ${(p) => p.theme.primaryColor};
     @media (min-width: 768px) {
       font-size: 30px;
     }
@@ -29,11 +29,11 @@ export const ContactsStyled = styled.div`
     display: inline-flex;
     align-items: flex-end;
     gap: 2px;
-    color: rgba(0, 0, 0, 0.5);
+    color: ${(p) => p.theme.primaryColor};
     transition: scale 300ms ease-in-out, color 300ms ease-in-out;
     &:hover {
       scale: 1.1;
-      color: #000;
+      color: ${(p) => p.theme.activeColor};
     }
   }
 
@@ -47,13 +47,13 @@ export const ContactsStyled = styled.div`
 
   .contact-link {
     display: flex;
-    color: rgba(0, 0, 0, 0.5);
+    color: ${(p) => p.theme.primaryColor};
     scale: 1;
     transition: scale 300ms ease-in-out, color 300ms ease-in-out;
 
     &:hover {
       scale: 1.1;
-      color: #000;
+      color: ${(p) => p.theme.activeColor};
     }
   }
 `;

@@ -23,7 +23,9 @@ export const SkillBlock = styled.div`
   padding: 15px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: ${(p) => p.theme.menuColorBackground};
+  transition: background-color 350ms ease-in-out;
+  color: ${(p) => p.theme.activeColor};
 
   @media (min-width: 1600px) {
     min-width: 500px;

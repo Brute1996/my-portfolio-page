@@ -25,7 +25,9 @@ export const PortfolioCardStyle = styled.li`
   max-width: 400px;
 
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: ${(p) => p.theme.menuColorBackground};
+  transition: background-color 350ms ease-in-out;
+  color: ${(p) => p.theme.activeColor};
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 
   @media (min-width: 1200px) {
@@ -55,7 +57,6 @@ export const PortfolioCardStyle = styled.li`
 
       font-size: 24px;
       letter-spacing: 4px;
-      color: rgba(0, 0, 0, 0.6);
     }
 
     .portfolio-img {
@@ -96,7 +97,7 @@ export const PortfolioCardStyle = styled.li`
 
     margin-top: 30px;
 
-    border: 2px solid #000;
+    border: 2px solid ${(p) => p.theme.activeColor};
     border-radius: 10px;
     padding: 6px;
 
@@ -106,8 +107,8 @@ export const PortfolioCardStyle = styled.li`
 
     &:hover {
       color: #fff;
-      background-color: #1a1a1a;
-      box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+      background-color: ${(p) => p.theme.activeColor};
+      box-shadow: ${(p) => p.theme.activeColor} 0 8px 15px;
     }
 
     &:active {

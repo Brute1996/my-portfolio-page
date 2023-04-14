@@ -1,6 +1,8 @@
 import styled from "@emotion/styled";
 
 export const MainLayoutStyled = styled.div`
+  background-color: ${(p) => p.theme.mainColorBackground};
+  transition: background-color 350ms ease-in-out;
   @media (min-width: 768px) {
     display: flex;
   }
@@ -28,9 +30,11 @@ export const MenuStyled = styled.div`
   width: 100%;
   height: 100vh;
   transform: translateY(-100%);
-  transition: transform 500ms ease-in-out;
-  background-color: rgb(61, 153, 112);
+
+  background-color: ${(p) => p.theme.menuColorBackground};
   padding: 50px 15px;
+
+  transition: transform 500ms ease-in-out, background-color 350ms ease-in-out;
 
   &.active {
     transform: translateY(0);
@@ -53,7 +57,7 @@ export const NavStyled = styled.nav`
   font-size: 28px;
   font-weight: 500;
   letter-spacing: 4px;
-  color: rgba(0, 0, 0, 0.6);
+  color: ${(p) => p.theme.primaryColor};
 
   @media (min-width: 768px) {
     font-size: 40px;
@@ -72,12 +76,12 @@ export const NavStyled = styled.nav`
   }
 
   .active {
-    color: black;
+    color: ${(p) => p.theme.activeColor};
   }
 `;
 
 export const MainStyled = styled.main`
-  height: 100vh;
+  min-height: 100vh;
   margin: auto;
   display: flex;
 `;

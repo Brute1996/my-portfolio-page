@@ -62,6 +62,7 @@ export const Photo = styled.div`
 export const HomeInfo = styled.div`
   text-align: center;
   max-width: 900px;
+  color: ${(p) => p.theme.activeColor};
 
   p {
     font-size: 23px;

@@ -2,7 +2,7 @@ import { HomeInfo, HomeTitle, HomeWrapper, Photo } from './pages-styles/Home.sty
 
 const Home = () => {
     return (
-        <HomeWrapper>
+        <HomeWrapper >
             <Photo />
             <HomeInfo>
                 <HomeTitle>Serhii Cherenkov</HomeTitle>
