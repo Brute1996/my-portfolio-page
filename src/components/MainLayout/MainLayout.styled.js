@@ -31,6 +31,7 @@ export const MenuStyled = styled.div`
   width: 100%;
   height: 100vh;
   transform: translateY(-100%);
+  z-index: 1;
 
   background-color: ${(p) => p.theme.menuColorBackground};
   padding: 50px 15px;

@@ -79,6 +79,7 @@ export const PortfolioCardStyle = styled.li`
       background-size: cover;
       border-radius: 15px;
       border: 3px solid white;
+      filter: blur(4px);
     }
   }
 
