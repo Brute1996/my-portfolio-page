@@ -43,9 +43,9 @@ export const MainLayout = () => {
         <ThemeProvider theme={theme}>
             <MainLayoutStyled>
                 <HeaderStyled>
-                    <ThemeButton handleThemeToggled={handleThemeToggled} theme={theme} />
                     <MobMenuBar menuActive={menuActive} menuToggle={menuToggle} />
                     <MenuStyled className={menuActive ? 'active' : null}>
+                        <ThemeButton handleThemeToggled={handleThemeToggled} theme={theme} />
                         <CvButton className={'menu-cv-button'} />
                         <NavStyled>
                             <NavLink onClick={menuToggle} className='navigation-link' to='/'><FaHome />Home</NavLink>

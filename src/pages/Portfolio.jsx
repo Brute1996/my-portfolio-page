@@ -5,6 +5,7 @@ import IceCreamImg from '../img/Ice-cream-project.JPG'
 import FilmotekaImg from '../img/filmoteka-project.JPG'
 import CurrencyConverImg from '../img/currency-converter-project.JPG'
 import ComingSoonImg from '../img/coming-soon.jpg'
+import LandingImg from '../img/landing-project.JPG'
 
 
 const Portfolio = () => {
@@ -17,7 +18,7 @@ const Portfolio = () => {
                     projectImage={WebStudioImg}
                     projectTitle='WebStudio'
                     projectTechnologies='HTML, SASS, JS'
-                    projectDescr='Personal website with a responsive layout' />
+                    projectDescr='Personal website with a adaptive layout' />
                 
                 <PortfolioItem
                     projectLink='https://yuliia21bm.github.io/team-project-ice-cream-shop/index.html'
@@ -49,10 +50,18 @@ const Portfolio = () => {
                     projectTitle='Currency Converter'
                     projectTechnologies='React JS, HTML, STYLED CSS, REST API, AJAX, Material UI'
                     projectDescr='Currency converter based on NBU API.' />
+                
+                <PortfolioItem
+                    projectLink='https://brute1996.github.io/landing/'
+                    projectGitLink='https://github.com/Brute1996/landing'
+                    projectImage={LandingImg}
+                    projectTitle='Landing'
+                    projectTechnologies='React JS, HTML, STYLED CSS'
+                    projectDescr='Landing page with adaptive layout' />
                                 
                 <PortfolioItem
-                    projectLink='/'
-                    projectGitLink='/'
+                    projectLink='#'
+                    projectGitLink='#'
                     projectImage={ComingSoonImg}
                     projectTitle='Coming soon'
                     projectTechnologies='soon'

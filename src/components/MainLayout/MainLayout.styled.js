@@ -22,6 +22,7 @@ export const HeaderStyled = styled.header`
 `;
 
 export const MenuStyled = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

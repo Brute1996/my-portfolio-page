@@ -30,9 +30,22 @@ export const PortfolioCardStyle = styled.li`
   color: ${(p) => p.theme.activeColor};
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 
+  &:last-child {
+    .portfolio-link {
+      pointer-events: none;
+      .visit-text {
+        display: none;
+      }
+    }
+    .project-git-link {
+      display: none;
+    }
+  }
+
   @media (min-width: 1200px) {
     position: relative;
     max-width: 1000px;
+    min-height: 300px;
     flex-direction: row;
     text-align: start;
     align-items: normal;
