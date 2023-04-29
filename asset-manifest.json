@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/my-portfolio-page/static/css/main.bda98bf8.css",
-    "main.js": "/my-portfolio-page/static/js/main.75de5a3b.js",
+    "main.css": "/my-portfolio-page/static/css/main.84dcc24d.css",
+    "main.js": "/my-portfolio-page/static/js/main.d87d8535.js",
     "static/media/filmoteka-project.JPG": "/my-portfolio-page/static/media/filmoteka-project.bf98772a623e127433d9.JPG",
     "static/media/Ice-cream-project.JPG": "/my-portfolio-page/static/media/Ice-cream-project.8d895b206768dd77a2e9.JPG",
     "static/media/web-studio-project.JPG": "/my-portfolio-page/static/media/web-studio-project.ea51d0db31d3212f12e2.JPG",
+    "static/media/landing-project.JPG": "/my-portfolio-page/static/media/landing-project.b6d1bcee8957aac02a25.JPG",
     "static/media/serhii-min.jpg": "/my-portfolio-page/static/media/serhii-min.b425dc4b6d5da86b3e2d.jpg",
     "static/media/currency-converter-project.JPG": "/my-portfolio-page/static/media/currency-converter-project.b3cf2e7a626398d2b761.JPG",
-    "static/media/coming-soon.jpg": "/my-portfolio-page/static/media/coming-soon.d2582ca18da1c879ab4e.jpg",
+    "static/media/coming-soon.jpg": "/my-portfolio-page/static/media/coming-soon.1695bded9752f84ec801.jpg",
     "index.html": "/my-portfolio-page/index.html",
-    "main.bda98bf8.css.map": "/my-portfolio-page/static/css/main.bda98bf8.css.map",
-    "main.75de5a3b.js.map": "/my-portfolio-page/static/js/main.75de5a3b.js.map"
+    "main.84dcc24d.css.map": "/my-portfolio-page/static/css/main.84dcc24d.css.map",
+    "main.d87d8535.js.map": "/my-portfolio-page/static/js/main.d87d8535.js.map"
   },
   "entrypoints": [
-    "static/css/main.bda98bf8.css",
-    "static/js/main.75de5a3b.js"
+    "static/css/main.84dcc24d.css",
+    "static/js/main.d87d8535.js"
   ]
 }
