@@ -41,11 +41,19 @@ export const MenuStyled = styled.div`
     transform: translateY(0);
   }
 
+  .theme-btn {
+    display: none;
+  }
+
   @media (min-width: 768px) {
     position: fixed;
     transform: translateY(0);
     width: auto;
     box-shadow: 1px 1px 15px #000;
+
+    .theme-btn {
+      display: flex;
+    }
   }
 `;
 

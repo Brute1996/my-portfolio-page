@@ -4,7 +4,7 @@ import { ThemeButtonStyle } from "./ThemeButton.styled";
 
 export const ThemeButton = ({handleThemeToggled, theme}) => {
     return (
-        <ThemeButtonStyle className="btn-dark" type="button" onClick={handleThemeToggled}>{
+        <ThemeButtonStyle className="theme-btn" type="button" onClick={handleThemeToggled}>{
         theme.id === 'light' ?  <BsSunFill/> : <BsMoonStarsFill /> }
         </ThemeButtonStyle>
     );
