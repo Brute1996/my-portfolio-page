@@ -36,6 +36,9 @@ export const PortfolioCardStyle = styled.li`
       .visit-text {
         display: none;
       }
+      .portfolio-img {
+        filter: blur(0);
+      }
     }
     .project-git-link {
       display: none;
