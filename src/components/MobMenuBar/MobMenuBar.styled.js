@@ -17,7 +17,6 @@ export const MenuBar = styled.div`
 export const MenuButton = styled.button`
   color: ${(p) => p.theme.activeColor};
   display: flex;
-  margin-left: auto;
   font-size: 45px;
   background-color: rgba(0, 0, 0, 0);
   border: none;

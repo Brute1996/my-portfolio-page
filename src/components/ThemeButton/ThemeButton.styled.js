@@ -2,7 +2,6 @@ import styled from "@emotion/styled";
 
 export const ThemeButtonStyle = styled.button`
   display: flex;
-  position: fixed;
   justify-content: center;
   align-items: center;
   z-index: 9999;
@@ -15,11 +14,9 @@ export const ThemeButtonStyle = styled.button`
   box-shadow: 1px 1px 5px black;
 
   transition: scale 300ms ease-in-out;
-  top: 2%;
-  left: 208px;
 
   @media (min-width: 768px) {
-    position: absolute;
+    position: fixed;
     top: 2%;
     left: 255px;
   }

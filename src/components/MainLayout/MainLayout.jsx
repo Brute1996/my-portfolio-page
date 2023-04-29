@@ -30,12 +30,16 @@ export const MainLayout = () => {
     }
 
     // theme processor 
-    const [theme, setTheme] = useState(themeLight)
+    const savedTheme = JSON.parse(localStorage.getItem("theme")) || themeLight;
+    const [theme, setTheme] = useState(savedTheme);
+
     const handleThemeToggled = () => {
         if (theme.id === "light") {
             setTheme(themeDark)
+            localStorage.setItem("theme", JSON.stringify(themeDark))
         } else {
             setTheme(themeLight)
+            localStorage.setItem("theme", JSON.stringify(themeLight))
         }
     }
 
@@ -43,7 +47,11 @@ export const MainLayout = () => {
         <ThemeProvider theme={theme}>
             <MainLayoutStyled>
                 <HeaderStyled>
-                    <MobMenuBar menuActive={menuActive} menuToggle={menuToggle} />
+                    <MobMenuBar
+                        menuActive={menuActive}
+                        menuToggle={menuToggle}
+                        handleThemeToggled={handleThemeToggled}
+                        theme={theme} />
                     <MenuStyled className={menuActive ? 'active' : null}>
                         <ThemeButton handleThemeToggled={handleThemeToggled} theme={theme} />
                         <CvButton className={'menu-cv-button'} />
