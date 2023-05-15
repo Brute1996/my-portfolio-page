@@ -32,7 +32,7 @@ const Portfolio = () => {
                     projectImage={IceCreamImg}
                     projectTitle='Icecream shop'
                     projectTechnologies='HTML, SASS, JS, Parcel'
-                    projectDescr='A website with a responsive design. Role: Developer.
+                    projectDescr='A website with a adaptive layout. Role: Developer.
                     I made gallery and customer reviews sections.
                     Also, I helped my teammates fix problems in their sections.
                     ' />
@@ -43,7 +43,7 @@ const Portfolio = () => {
                     projectImage={FilmotekaImg}
                     projectTitle='Filmoteka'
                     projectTechnologies='HTML, SASS, JS, REST API, AJAX, Parcel'
-                    projectDescr='Application for choosing a movie. Role: Developer.
+                    projectDescr='Application for choosing a movie with adaptiv layout. Role: Developer.
                     I made a modal window for movie cards and the "wheel of
                     fortune" button in the header.
                     As well, I helped my teammates to fix problems in their sections.
@@ -63,7 +63,7 @@ const Portfolio = () => {
                     projectImage={LandingImg}
                     projectTitle='Landing'
                     projectTechnologies='React JS, HTML, STYLED CSS, Ract router'
-                    projectDescr='Landing page with adaptive layout' />
+                    projectDescr='Landing page with adaptive layout.' />
                 
                 <PortfolioItem
                     projectLink='https://brute1996.github.io/the-notes-app/'
@@ -71,7 +71,7 @@ const Portfolio = () => {
                     projectImage={TheNotesAppImg}
                     projectTitle='The notes app'
                     projectTechnologies='React JS, HTML, STYLED CSS, REST API'
-                    projectDescr='App with responsive design to create, delete, edit notes. Based on QuintaDB REST API.' />
+                    projectDescr='App with responsive layout to create, delete, edit notes. Based on QuintaDB REST API.' />
                                 
                 <PortfolioItem
                     projectLink='#'
