@@ -1,11 +1,17 @@
 import { PortfolioItem } from "../components/PortfolioItem/PortfolioItem";
 import { PortfolioList } from "./pages-styles/Portfolio.styled";
-import WebStudioImg from '../img/web-studio-project.JPG'
-import IceCreamImg from '../img/Ice-cream-project.JPG'
-import FilmotekaImg from '../img/filmoteka-project.JPG'
-import CurrencyConverImg from '../img/currency-converter-project.JPG'
-import ComingSoonImg from '../img/coming-soon.jpg'
-import LandingImg from '../img/landing-project.JPG'
+
+import {
+    ComingSoonImg,
+    CurrencyConverImg,
+    FilmotekaImg,
+    IceCreamImg,
+    LandingImg,
+    TheNotesAppImg,
+    WebStudioImg
+} from "../img";
+
+
 
 
 const Portfolio = () => {
@@ -56,8 +62,16 @@ const Portfolio = () => {
                     projectGitLink='https://github.com/Brute1996/landing'
                     projectImage={LandingImg}
                     projectTitle='Landing'
-                    projectTechnologies='React JS, HTML, STYLED CSS'
+                    projectTechnologies='React JS, HTML, STYLED CSS, Ract router'
                     projectDescr='Landing page with adaptive layout' />
+                
+                <PortfolioItem
+                    projectLink='https://brute1996.github.io/the-notes-app/'
+                    projectGitLink='https://github.com/Brute1996/the-notes-app'
+                    projectImage={TheNotesAppImg}
+                    projectTitle='The notes app'
+                    projectTechnologies='React JS, HTML, STYLED CSS, REST API'
+                    projectDescr='App with responsive design to create, delete, edit notes. Based on QuintaDB REST API.' />
                                 
                 <PortfolioItem
                     projectLink='#'
