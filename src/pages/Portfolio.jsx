@@ -5,6 +5,7 @@ import {
     ComingSoonImg,
     CurrencyConverImg,
     FilmotekaImg,
+    HounterLandingImg,
     IceCreamImg,
     LandingImg,
     TheNotesAppImg,
@@ -72,6 +73,14 @@ const Portfolio = () => {
                     projectTitle='The notes app'
                     projectTechnologies='React JS, HTML, STYLED CSS, REST API'
                     projectDescr='App with responsive layout to create, delete, edit notes. Based on QuintaDB REST API.' />
+                
+                <PortfolioItem
+                    projectLink='https://brute1996.github.io/hounter-landing/'
+                    projectGitLink='https://github.com/Brute1996/hounter-landing'
+                    projectImage={HounterLandingImg}
+                    projectTitle='Hounter landing'
+                    projectTechnologies='React JS, HTML, STYLED CSS'
+                    projectDescr='Landing page with adaptive layout' />
                                 
                 <PortfolioItem
                     projectLink='#'

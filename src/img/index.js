@@ -1,10 +1,11 @@
-import WebStudioImg from "../img/web-studio-project.JPG";
-import IceCreamImg from "../img/Ice-cream-project.JPG";
-import FilmotekaImg from "../img/filmoteka-project.JPG";
-import CurrencyConverImg from "../img/currency-converter-project.JPG";
-import ComingSoonImg from "../img/coming-soon.jpg";
-import LandingImg from "../img/landing-project.JPG";
-import TheNotesAppImg from "../img/the-notes-app-project.JPG";
+import WebStudioImg from "./web-studio-project.JPG";
+import IceCreamImg from "./Ice-cream-project.JPG";
+import FilmotekaImg from "./filmoteka-project.JPG";
+import CurrencyConverImg from "./currency-converter-project.JPG";
+import ComingSoonImg from "./coming-soon.jpg";
+import LandingImg from "./landing-project.JPG";
+import TheNotesAppImg from "./the-notes-app-project.JPG";
+import HounterLandingImg from "./hounter-landing-poject.JPG";
 
 export {
   WebStudioImg,
@@ -14,4 +15,5 @@ export {
   ComingSoonImg,
   LandingImg,
   TheNotesAppImg,
+  HounterLandingImg,
 };
