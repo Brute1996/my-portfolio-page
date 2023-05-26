@@ -80,7 +80,7 @@ const Portfolio = () => {
                     projectImage={HounterLandingImg}
                     projectTitle='Hounter landing'
                     projectTechnologies='React JS, HTML, STYLED CSS'
-                    projectDescr='Landing page with adaptive layout' />
+                    projectDescr='Landing page for selling houses with adaptive layout' />
                                 
                 <PortfolioItem
                     projectLink='#'
